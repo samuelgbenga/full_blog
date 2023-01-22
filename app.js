@@ -1,7 +1,7 @@
 import express from "express";
 import userRoute from "./route/user-route.js";
 import mongoose from "mongoose";
-import blogRoute from "./route/blog_route.js";
+import blogRoute from "./route/blog-route.js";
 
 const app = express();
 

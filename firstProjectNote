@@ -1,0 +1,17 @@
+installs:
+npm init
+install nodemon
+install express
+install mongoose
+install bcryptjs
+
+create a relation btw the blog and users schema
+********** materials to use*******
+https://mongoosejs.com/docs/index.html = mongoose
+https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/ = for mongoose
+https://expressjs.com/en/starter/hello-world.html = for express
+https://blog.logrocket.com/password-hashing-node-js-bcrypt/ = for bycrypt
+https://www.makeuseof.com/nodejs-bcrypt-hash-verify-salt-password/ = for bycrypt
+*********************
+jan 22 where did i left off.
+
