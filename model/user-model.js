@@ -16,6 +16,13 @@ const UserSchema = new Schema({
     type: "string",
     require: true,
   },
+  blogs: [
+    {
+      type: mongoose.Types.ObjectId,
+      ref: "BlogModel",
+      require: true,
+    },
+  ],
 });
 
 // Compile model from schema

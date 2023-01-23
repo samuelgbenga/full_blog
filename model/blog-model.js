@@ -12,13 +12,10 @@ const BlogSchema = new Schema({
     type: "string",
     require: true,
   },
-  creator: {
-    type: "string",
+  user_ref: {
+    type: mongoose.Types.ObjectId,
+    ref: "UserModel",
     require: true,
-  },
-  user: {
-    type: "string",
-    required: true,
   },
 });
 

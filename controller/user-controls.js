@@ -30,7 +30,12 @@ export const addUser = async (req, res) => {
 
   // hash user password using bcrypt
   const hashedPass = bcrypt.hashSync(password);
-  const newUser = new UserModel({ name, email, password: hashedPass });
+  const newUser = new UserModel({
+    name,
+    email,
+    password: hashedPass,
+    blog: [],
+  });
   try {
     await newUser.save();
   } catch (err) {
