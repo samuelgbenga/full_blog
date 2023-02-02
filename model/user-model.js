@@ -25,5 +25,6 @@ const UserSchema = new Schema({
   ],
 });
 
+
 // Compile model from schema
 export const UserModel = mongoose.model("UserModel", UserSchema);

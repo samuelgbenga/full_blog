@@ -2,8 +2,11 @@ import express from "express";
 import userRoute from "./route/user-route.js";
 import mongoose from "mongoose";
 import blogRoute from "./route/blog-route.js";
+import dotenv from "dotenv";
 
 const app = express();
+
+dotenv.config();
 
 const db =
   "mongodb+srv://admin:admin@cluster0.lwzv3fo.mongodb.net/?retryWrites=true&w=majority";
