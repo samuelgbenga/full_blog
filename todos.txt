@@ -1,0 +1,3 @@
+work with font family in tailwind.
+work with dark themeing and light themeing
+work with configuring the screen size in config
