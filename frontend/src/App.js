@@ -5,10 +5,11 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="bg-white/60 w-full">
+    <div className="bg-white/60 w-full box-border">
       <TopBar />
       <Hero />
       <BlogCats />
+
       <Footer />
     </div>
   );

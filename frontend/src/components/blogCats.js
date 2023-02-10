@@ -6,7 +6,6 @@ import Myth from "./blogCats/myth";
 const blogCats = () => {
   return (
     <div>
-      blogs catergories
       <Science />
       <Philosophy />
       <Myth />
