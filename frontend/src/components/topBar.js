@@ -4,8 +4,8 @@ import { FcWiFiLogo } from "react-icons/fc";
 
 const topBar = () => {
   return (
-    <div className="w-full bg-white h-12">
-      <div className="flex justify-between items-center h-full max-w-full p-6 px-16 text-blue-700">
+    <div className="w-full bg-white px-12 h-12">
+      <div className="flex justify-between items-center h-full max-w-full text-blue-700">
         <div>
           <FcWiFiLogo className="text-4xl" />
         </div>
