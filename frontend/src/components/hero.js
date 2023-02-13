@@ -4,7 +4,7 @@ import React from "react";
 const hero = () => {
   return (
     <div className="bg-[url('../src/mockItems/img6.jpg')] bg-cover bg-center bg-no-repeat w-full h-[700px] flex items-end justify-start p-16 tracking-wide md:tracking-widest">
-      <div className="h-[50%] lg:h-[65%]">
+      <div className="h-[60%] md:h-[65%]">
         {" "}
         <h1 className="text-purple-900 font-bold text-4xl md:text-5xl lg:text-6xl my-6 lg:my-10">
           Time to Get Your Facts <br /> Straight and in Order
